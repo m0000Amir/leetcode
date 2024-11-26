@@ -23,5 +23,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | #   | Title                              | Difficulty | Solution File                         |
 | --- | ---------------------------------- | ---------- | ------------------------------------- |
 | 1861| Rotating The Box                   | Medium     | [Solution](leetcode/1861_rotating_the_box) |
-
-
+| 2924| Find champion II                   | Medium     | [Solution](leetcode/2924_find_champion_2) |
