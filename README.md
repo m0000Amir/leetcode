@@ -25,9 +25,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1861| Rotating The Box                   | Medium     | [Solution](leetcode/1861_rotating_the_box) |
 | 2924| Find champion II                   | Medium     | [Solution](leetcode/2924_find_champion_2) |
 | 2097| Valid Arrangement of Pairs         | Hard       | [Solution](leetcode/2097_valid_arrangement_of_pairs/2097_valid_arrangement_of_pairs.cpp) |
-
-Code
-Test Result
-Testcase
-Testcase
-2097. Valid Arrangement of Pairs
+| 1346| Check If N and Its Double Exist    | Easy       | [Solution](leetcode/1346_Check_If_N_and_Its_Double_Exist/1346_Check_If_N_and_Its_Double_Exist.cpp) |
