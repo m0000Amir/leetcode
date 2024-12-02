@@ -26,3 +26,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 2924| Find champion II                   | Medium     | [Solution](leetcode/2924_find_champion_2) |
 | 2097| Valid Arrangement of Pairs         | Hard       | [Solution](leetcode/2097_valid_arrangement_of_pairs/2097_valid_arrangement_of_pairs.cpp) |
 | 1346| Check If N and Its Double Exist    | Easy       | [Solution](leetcode/1346_Check_If_N_and_Its_Double_Exist/1346_Check_If_N_and_Its_Double_Exist.cpp) |
+| 1455| Check If a Word Occurs As a Prefix of Any Word in a Sentence    | Easy       | [Solution](leetcode/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence.cpp) |
