@@ -28,5 +28,5 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1346| Check If N and Its Double Exist    | Easy       | [Solution](leetcode/1346_Check_If_N_and_Its_Double_Exist/1346_Check_If_N_and_Its_Double_Exist.cpp) |
 | 1455| Check If a Word Occurs As a Prefix of Any Word in a Sentence    | Easy       | [Solution](leetcode/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence.cpp) |
 | 2109| Adding Spaces to a String   | Medium       | [Solution](leetcode/2109_Adding_Spaces_to_a_String/2109_Adding_Spaces_to_a_String.cpp) |
-| 2054| Two Best Non Overlapping Events   | Medium       | [Solution](leetcode/2054_Two_Best_Non_Overlapping_Events/2109_Adding_Spaces_to_a_String.cpp) |
-
+| 2054| Two Best Non Overlapping Events   | Medium       | [Solution](leetcode/2054_Two_Best_Non_Overlapping_Events/2054_Two_Best_Non_Overlapping_Events.cpp) |
+| 3152| Special Array II   | Medium       | [Solution](leetcode/3152_Special_Array_II/3152_Special_Array_II.cpp) |
