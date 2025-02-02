@@ -31,3 +31,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 2054| Two Best Non Overlapping Events   | Medium       | [Solution](leetcode/2054_Two_Best_Non_Overlapping_Events/2054_Two_Best_Non_Overlapping_Events.cpp) |
 | 3152| Special Array II   | Medium       | [Solution](leetcode/3152_Special_Array_II/3152_Special_Array_II.cpp) |
 | 2981| Find Longest Special Substring That Occurs Thrice I  | Medium       | [Solution](leetcode/2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I/2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I.cpp) |
+| 1 | [Two Sum](leetcode/0001-two-sum/README.md) | Easy | [Python](leetcode/0001-two-sum/two-sum.cpp) |
