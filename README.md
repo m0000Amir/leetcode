@@ -18,8 +18,6 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 
 ## Problem List
 
-1861_rotating_the_box
-
 | #   | Title                              | Difficulty | Solution File                         |
 | --- | ---------------------------------- | ---------- | ------------------------------------- |
 | 1861| Rotating The Box                   | Medium     | [Solution](leetcode/1861_rotating_the_box) |
