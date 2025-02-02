@@ -1,5 +1,4 @@
 import requests
-import os
 import argparse
 from pathlib import Path
 
@@ -129,13 +128,13 @@ def create_problem_file(problem, lang):
 
     if lang == "py":
         extension = "py"
-        author = "# Amir Mukhtarov, mukhtarov.amir.a@gmail.com \n"
+        author = "# Amir Mukhtarov, mukhtarov.amir.a@gmail.com\n"
         snippet_lang = "Python3"
         code_snippet = get_code_snippet(snippet_lang, problem)
         solution_content = f'{author}{code_snippet}\n\n{PYTHON_MAIN}'
     elif lang == "cpp":
         extension = "cpp"
-        author = "// Amir Mukhtarov, mukhtarov.amir.a@gmail.com \n"
+        author = "// Amir Mukhtarov, mukhtarov.amir.a@gmail.com\n"
         snippet_lang = "C++"
         code_snippet = get_code_snippet(snippet_lang, problem)
         solution_content = f'{author}{CPP_HEAD}{code_snippet}\n{CPP_MAIN}'
@@ -149,7 +148,7 @@ def create_problem_file(problem, lang):
     with open(folder_path / f"{title_slug}.{extension}", "w") as f:
         f.write(solution_content)
 
-    return folder_name
+    print(f"Successfully added solution for problem: {problem['title']}")
 
 
 def update_readme_table(problem, lang):
@@ -163,30 +162,16 @@ def update_readme_table(problem, lang):
 
     if lang == "py":
         extension = "py"
-        # author = "# Amir Mukhtarov, mukhtarov.amir.a@gmail.com \n"
-        # snippet_lang = "Python3"
-        # code_snippet = get_code_snippet(snippet_lang, problem)
-
     elif lang == "cpp":
         extension = "cpp"
-        # author = "// Amir Mukhtarov, mukhtarov.amir.a@gmail.com \n"
-        # snippet_lang = "C++"
-        # code_snippet = get_code_snippet(snippet_lang, problem)
-
     else:
-        Exception("Incorrect programing language") 
+        Exception("Incorrect programing language")
 
     # Solution links
-    link = f"[Python](leetcode/{folder_name}/{title_slug}.{extension})" 
-    print(link)
-    
-    # if "python" in solutions else ""
-    # cpp_link = f"[C++](leetcode/{folder_name}/solution.cpp)" if "cpp" in solutions else ""
-    
-    # solution_links = " | ".join(link)
+    link = f"[Python](leetcode/{folder_name}/{title_slug}.{extension})"
 
     # Create table entry
-    table_entry = f"| {problem_id} | [{title}](leetcode/{folder_name}/README.md) | {difficulty} | {link} |\n"
+    table_entry = f"| {problem_id} | [{title}](leetcode/{folder_name}/README.md) | {difficulty} | {link} | \n"
 
     # Add table entry to README.md
     if not readme_path.exists():
@@ -198,21 +183,7 @@ def update_readme_table(problem, lang):
     with open(readme_path, "a") as f:
         f.write(table_entry)
 
-
-def get_multi_line_input(lang):
-    """Capture multi-line input from the user."""
-    print(f"Paste your {lang} solution code (Press Enter twice to finish):")
-    lines = []
-    while True:
-        try:
-            line = input()
-            if line.strip() == "":  # Stop reading on an empty line
-                break
-            lines.append(line)
-        except EOFError:  # Handle Ctrl+D (EOF) for some terminals
-            break
-    return "\n".join(lines) if lines else None
-
+    print(f"Successfully added problem: {problem['title']} to README.md")
 
 
 def main():
@@ -221,7 +192,7 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument(
         "-c",
-        action="store_true", 
+        action="store_true",
         help="Enable option C (Create problem)"
     )
     group.add_argument(
@@ -231,44 +202,20 @@ def main():
     )
 
     parser.add_argument("lang", type=str, help="Programming language")
-    parser.add_argument("title_slug", type=str, help="Problem title slug") 
+    parser.add_argument("title_slug", type=str, help="Problem title slug")
     args = parser.parse_args()
 
     # Fetch problem details
     problem = fetch_problem_details(args.title_slug)
     lang = args.lang
 
-    if args.c:
+    if args.c:  # -c create
         # Create solution folder and markdown file
         create_problem_file(problem, lang)
 
-    elif args.d:
-        print("Option -d was selected.")
+    elif args.d:  # -d done
         # Update README.md
         update_readme_table(problem, lang)
-
-    # Input: Problem title slug
-    # title_slug = input("Enter the problem title slug (e.g., two-sum): ").strip()
-    
-    # solutions = {}
-
-    # # Get Python solution
-    # python_solution = get_multi_line_input("Python")
-    # if python_solution:
-    #     solutions["python"] = python_solution
-
-    # # Get C++ solution
-    # cpp_solution = get_multi_line_input("C++")
-    # if cpp_solution:
-    #     solutions["cpp"] = cpp_solution
-
-
-
-
-
-    
-
-    print(f"Successfully added solution for problem: {problem['title']}")
 
 
 if __name__ == "__main__":
