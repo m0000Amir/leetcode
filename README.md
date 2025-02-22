@@ -32,3 +32,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1 | [Two Sum](leetcode/0001-two-sum/README.md) | Easy | [Python](leetcode/0001-two-sum/two-sum.cpp) |
 | 1878 | [Check if Array Is Sorted and Rotated](leetcode/1878-check-if-array-is-sorted-and-rotated/README.md) | Easy | [Python](leetcode/1878-check-if-array-is-sorted-and-rotated/check-if-array-is-sorted-and-rotated.py) | 
 | 3372 | [Longest Strictly Increasing or Strictly Decreasing Subarray](leetcode/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/README.md) | Easy | [Python](leetcode/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/longest-strictly-increasing-or-strictly-decreasing-subarray.py) | 
+| 1093 | [Recover a Tree From Preorder Traversal](leetcode/1093-recover-a-tree-from-preorder-traversal/README.md) | Hard | [Python](leetcode/1093-recover-a-tree-from-preorder-traversal/recover-a-tree-from-preorder-traversal.py) | 
