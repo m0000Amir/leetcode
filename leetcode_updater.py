@@ -84,7 +84,7 @@ def fetch_problem_details(title_slug):
     }
 
     response = requests.post(
-        LEETCODE_API_URL, 
+        LEETCODE_API_URL,
         json=payload,
         headers=HEADERS
     )
@@ -162,13 +162,15 @@ def update_readme_table(problem, lang):
 
     if lang == "py":
         extension = "py"
+        link_lang = "Python"
     elif lang == "cpp":
         extension = "cpp"
+        link_lang = "C++"
     else:
         Exception("Incorrect programing language")
 
     # Solution links
-    link = f"[Python](leetcode/{folder_name}/{title_slug}.{extension})"
+    link = f"[{link_lang}](leetcode/{folder_name}/{title_slug}.{extension})"
 
     # Create table entry
     table_entry = f"| {problem_id} | [{title}](leetcode/{folder_name}/README.md) | {difficulty} | {link} | \n"
