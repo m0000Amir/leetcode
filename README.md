@@ -36,3 +36,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 2463 | [Minimum Recolors to Get K Consecutive Black Blocks](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/README.md) | Easy | [Python](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/minimum-recolors-to-get-k-consecutive-black-blocks.py) |
 | 2463 | [Minimum Recolors to Get K Consecutive Black Blocks](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/README.md) | Easy | [C++](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/minimum-recolors-to-get-k-consecutive-black-blocks.cpp) | 
 | 1013 | [Fibonacci Number](leetcode/1013-fibonacci-number/README.md) | Easy | [C++](leetcode/1013-fibonacci-number/fibonacci-number.cpp) | 
+| 1236 | [N-th Tribonacci Number](leetcode/1236-n-th-tribonacci-number/README.md) | Easy | [C++](leetcode/1236-n-th-tribonacci-number/n-th-tribonacci-number.cpp) | 
