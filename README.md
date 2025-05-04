@@ -38,3 +38,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1013 | [Fibonacci Number](leetcode/1013-fibonacci-number/README.md) | Easy | [C++](leetcode/1013-fibonacci-number/fibonacci-number.cpp) | 
 | 1236 | [N-th Tribonacci Number](leetcode/1236-n-th-tribonacci-number/README.md) | Easy | [C++](leetcode/1236-n-th-tribonacci-number/n-th-tribonacci-number.cpp) | 
 | 1227 | [Number of Equivalent Domino Pairs](leetcode/1227-number-of-equivalent-domino-pairs/README.md) | Easy | [C++](leetcode/1227-number-of-equivalent-domino-pairs/number-of-equivalent-domino-pairs.cpp) |
+| 45 | [Jump Game II](leetcode/0045-jump-game-ii/README.md) | Medium | [C++](leetcode/0045-jump-game-ii/jump-game-ii.cpp) |
