@@ -8,7 +8,7 @@ My profile [m0000a](https://leetcode.com/m0000a/).
 Leetcode problems
 
 
-# LeetCode Solutions in C++
+# LeetCode Solutions in C++, Python
 
 This repository contains my solutions to [LeetCode](https://leetcode.com/) problems using C++.
 
@@ -37,3 +37,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 2463 | [Minimum Recolors to Get K Consecutive Black Blocks](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/README.md) | Easy | [C++](leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/minimum-recolors-to-get-k-consecutive-black-blocks.cpp) | 
 | 1013 | [Fibonacci Number](leetcode/1013-fibonacci-number/README.md) | Easy | [C++](leetcode/1013-fibonacci-number/fibonacci-number.cpp) | 
 | 1236 | [N-th Tribonacci Number](leetcode/1236-n-th-tribonacci-number/README.md) | Easy | [C++](leetcode/1236-n-th-tribonacci-number/n-th-tribonacci-number.cpp) | 
+| 1227 | [Number of Equivalent Domino Pairs](leetcode/1227-number-of-equivalent-domino-pairs/README.md) | Easy | [C++](leetcode/1227-number-of-equivalent-domino-pairs/number-of-equivalent-domino-pairs.cpp) |

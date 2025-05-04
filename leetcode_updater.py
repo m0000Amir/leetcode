@@ -173,7 +173,7 @@ def update_readme_table(problem, lang):
     link = f"[{link_lang}](leetcode/{folder_name}/{title_slug}.{extension})"
 
     # Create table entry
-    table_entry = f"| {problem_id} | [{title}](leetcode/{folder_name}/README.md) | {difficulty} | {link} | \n"
+    table_entry = f"| {problem_id} | [{title}](leetcode/{folder_name}/README.md) | {difficulty} | {link} |\n"
 
     # Add table entry to README.md
     if not readme_path.exists():
