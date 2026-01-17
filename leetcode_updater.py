@@ -142,14 +142,18 @@ def create_problem_file(problem, lang):
     else:
         Exception("Incorrect programing language")
 
-    with open(folder_path / "README.md", "w") as f:
-        f.write(readme_content)
+    file_path = folder_path / f"{title_slug}.{extension}"
+    try:
+        # save solution files
+        with open(file_path, "x") as f:
+            f.write(solution_content)
 
-    # save solution files
-    with open(folder_path / f"{title_slug}.{extension}", "w") as f:
-        f.write(solution_content)
+        with open(folder_path / "README.md", "w") as f:
+            f.write(readme_content)
 
-    print(f"Successfully added solution for problem: {problem['title']}")
+        print(f"Successfully added solution for problem: {problem['title']}")
+    except FileExistsError:
+        print(f"File '{file_path}' already exists. Skipping...")
 
 
 def update_readme_table(problem, lang):
