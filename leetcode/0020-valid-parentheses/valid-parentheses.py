@@ -16,7 +16,7 @@ class Solution:
                 if not stack or stack.pop() != h[char]:
                     return False
 
-        return True
+        return len(stack) == 0
 
 
 if __name__ == '__main__':
