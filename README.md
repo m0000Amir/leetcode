@@ -42,3 +42,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 2316 | [Count Hills and Valleys in an Array](leetcode/2316-count-hills-and-valleys-in-an-array/README.md) | Easy | [Python](leetcode/2316-count-hills-and-valleys-in-an-array/count-hills-and-valleys-in-an-array.py) |
 | 1476 |[Count Negative Numbers in a Sorted Matrix](leetcode/1476-count-negative-numbers-in-a-sorted-matrix/README.md) | Easy | [Python](leetcode/1476-count-negative-numbers-in-a-sorted-matrix/count-negative-numbers-in-a-sorted-matrix.py) |
 | 20 |[Valid Parentheses](leetcode/0020-valid-parentheses/README.md) | Easy | [Python](leetcode/0020-valid-parentheses/valid-parentheses.py) |
+| 20 |[Valid Parentheses](leetcode/0020-valid-parentheses/README.md) | Easy | [C++](leetcode/0020-valid-parentheses/valid-parentheses.cpp) |
