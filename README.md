@@ -45,3 +45,5 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 20 |[Valid Parentheses](leetcode/0020-valid-parentheses/README.md) | Easy | [C++](leetcode/0020-valid-parentheses/valid-parentheses.cpp) |
 | 94 |[Binary Tree Inorder Traversal](leetcode/0094-binary-tree-inorder-traversal/README.md) | Easy | [Python](leetcode/0094-binary-tree-inorder-traversal/binary-tree-inorder-traversal.py) |
 | 94 |[Binary Tree Inorder Traversal](leetcode/0094-binary-tree-inorder-traversal/README.md) | Easy | [C++](leetcode/0094-binary-tree-inorder-traversal/binary-tree-inorder-traversal.cpp) |
+| 1988 |[Minimize Maximum Pair Sum in Array](leetcode/1988-minimize-maximum-pair-sum-in-array/README.md) | Medium | [Python](leetcode/1988-minimize-maximum-pair-sum-in-array/minimize-maximum-pair-sum-in-array.py) |
+| 1988 |[Minimize Maximum Pair Sum in Array](leetcode/1988-minimize-maximum-pair-sum-in-array/README.md) | Medium | [C++](leetcode/1988-minimize-maximum-pair-sum-in-array/minimize-maximum-pair-sum-in-array.cpp) |
