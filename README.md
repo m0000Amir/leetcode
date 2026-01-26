@@ -49,3 +49,5 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1988 |[Minimize Maximum Pair Sum in Array](leetcode/1988-minimize-maximum-pair-sum-in-array/README.md) | Medium | [C++](leetcode/1988-minimize-maximum-pair-sum-in-array/minimize-maximum-pair-sum-in-array.cpp) |
 | 26 |[Remove Duplicates from Sorted Array](leetcode/0026-remove-duplicates-from-sorted-array/README.md) | Easy | [Python](leetcode/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.py) |
 | 26 |[Remove Duplicates from Sorted Array](leetcode/0026-remove-duplicates-from-sorted-array/README.md) | Easy | [C++](leetcode/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.cpp) |
+| 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [Python](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.py) |
+| 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [C++](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.cpp) |
