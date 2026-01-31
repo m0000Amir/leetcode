@@ -51,3 +51,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 26 |[Remove Duplicates from Sorted Array](leetcode/0026-remove-duplicates-from-sorted-array/README.md) | Easy | [C++](leetcode/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.cpp) |
 | 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [Python](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.py) |
 | 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [C++](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.cpp) |
+| 745 |[Find Smallest Letter Greater Than Target](leetcode/0745-find-smallest-letter-greater-than-target/README.md) | Easy | [Python](leetcode/0745-find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.py) |
