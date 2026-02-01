@@ -52,3 +52,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [Python](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.py) |
 | 1306 |[Minimum Absolute Difference](leetcode/1306-minimum-absolute-difference/README.md) | Easy | [C++](leetcode/1306-minimum-absolute-difference/minimum-absolute-difference.cpp) |
 | 745 |[Find Smallest Letter Greater Than Target](leetcode/0745-find-smallest-letter-greater-than-target/README.md) | Easy | [Python](leetcode/0745-find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.py) |
+| 3263 |[Divide an Array Into Subarrays With Minimum Cost I](leetcode/3263-divide-an-array-into-subarrays-with-minimum-cost-i/README.md) | Easy | [Python](leetcode/3263-divide-an-array-into-subarrays-with-minimum-cost-i/divide-an-array-into-subarrays-with-minimum-cost-i.py) |
