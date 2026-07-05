@@ -55,3 +55,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 3263 |[Divide an Array Into Subarrays With Minimum Cost I](leetcode/3263-divide-an-array-into-subarrays-with-minimum-cost-i/README.md) | Easy | [Python](leetcode/3263-divide-an-array-into-subarrays-with-minimum-cost-i/divide-an-array-into-subarrays-with-minimum-cost-i.py) |
 | 1039 |[Find the Town Judge](leetcode/1039-find-the-town-judge/README.md) | Easy | [C++](leetcode/1039-find-the-town-judge/find-the-town-judge.cpp) |
 | 1039 |[Find the Town Judge](leetcode/1039-find-the-town-judge/README.md) | Easy | [Python](leetcode/1039-find-the-town-judge/find-the-town-judge.py) |
+| 2582 |[Minimum Score of a Path Between Two Cities](leetcode/2582-minimum-score-of-a-path-between-two-cities/README.md) | Medium | [Python](leetcode/2582-minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.py) |
