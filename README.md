@@ -57,3 +57,4 @@ This repository contains my solutions to [LeetCode](https://leetcode.com/) probl
 | 1039 |[Find the Town Judge](leetcode/1039-find-the-town-judge/README.md) | Easy | [Python](leetcode/1039-find-the-town-judge/find-the-town-judge.py) |
 | 2582 |[Minimum Score of a Path Between Two Cities](leetcode/2582-minimum-score-of-a-path-between-two-cities/README.md) | Medium | [Python](leetcode/2582-minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.py) |
 | 1222 |[Remove Covered Intervals](leetcode/1222-remove-covered-intervals/README.md) | Medium | [C++](leetcode/1222-remove-covered-intervals/remove-covered-intervals.cpp) |
+| 4135 |[Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/README.md) | Easy | [Python](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/concatenate-non-zero-digits-and-multiply-by-sum-i.py) |
